@@ -39,7 +39,7 @@ module.exports.sendResetPasswordMail = async (user, resetaccessToken) => {
   let emailTransporter = await nodemailer.transporter();
   await emailTransporter.sendMail(
     {
-      from: 'geethabommi139@gmail.com',
+      from: 'geethadeveloper1@gmail.com',
       to: user.email,
       subject: 'Reset Password for Authentication App',
       html: htmlString,
@@ -54,9 +54,4 @@ module.exports.sendResetPasswordMail = async (user, resetaccessToken) => {
       return;
     }
   );
-};
-
-const sendEmail = async (emailOptions) => {
-  let emailTransporter = await createTransporter();
-  await emailTransporter.sendMail(emailOptions);
 };
