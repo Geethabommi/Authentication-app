@@ -8,3 +8,12 @@
 [0mGET /forgot-password [32m200[0m 772.954 ms - 2020[0m
 [0mPOST /forgot-password/mail [36m302[0m 1589.656 ms - 46[0m
 [0mGET / [32m200[0m 1775.883 ms - 1698[0m
+[0mGET /forgot-password [32m200[0m 309.339 ms - 1933[0m
+[0mGET / [32m200[0m 1072.181 ms - 1597[0m
+[0mGET /users/sign-in [36m304[0m 248.389 ms - -[0m
+[0mGET /forgot-password [36m304[0m 232.810 ms - -[0m
+[0mGET / [36m304[0m 152.372 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 163.140 ms - -[0m
+[0mGET /forgot-password [36m304[0m 134.622 ms - -[0m
+[0mPOST /forgot-password/mail [36m302[0m 522.714 ms - 46[0m
+[0mGET / [36m304[0m 692.441 ms - -[0m

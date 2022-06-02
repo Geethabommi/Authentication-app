@@ -17,14 +17,15 @@ const development = {
   session_cookie_key: 'HVZVge7QAC4l4q6WnE8opHyEG0GF8pKU',
   db: 'authentication_app_system',
   mongodb_uri: `mongodb+srv://geet:Gsiva139@geet-cluster1.fopbkm4.mongodb.net/`,
+  EMAIL: 'geethadeveloper1@gmail.com',
+  REFRESH_TOKEN:
+    '1//04uER6v2AoKPQCgYIARAAGAQSNwF-L9Ir1uCxTJ9yfDt-R7i1LRso_eO7TUVJadUX3kGso_b6FQTqh_vKyxiFCt3LTlnyU6BMF2w',
   smtp: {
     service: 'gmail',
     host: 'smtp.gmail.com',
     port: 587,
     secure: false,
     auth: {
-      // user: 'geethabommi139@gmail.com',
-      // pass: 'Gappa@139',
       user: process.env.AUTH_APP_SMTP_AUTH__USER,
       pass: process.env.AUTH_APP_SMTP_AUTH_PASS,
     },
@@ -46,6 +47,8 @@ const production = {
   session_cookie_key: process.env.AUTH_APP_SESSION_COOKIE_KEY,
   db: process.env.AUTH_APP_DB,
   mongodb_uri: process.env.MONGODB_URI,
+  EMAIL: process.env.GMAIL,
+  REFRESH_TOKEN: process.env.REFRESH_TOKEN,
   smtp: {
     service: 'gmail',
     host: 'smtp.gmail.com',
