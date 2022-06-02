@@ -47,7 +47,7 @@ const production = {
   session_cookie_key: process.env.AUTH_APP_SESSION_COOKIE_KEY,
   db: process.env.AUTH_APP_DB,
   mongodb_uri: process.env.MONGODB_URI,
-  EMAIL: process.env.GMAIL,
+  EMAIL: process.env.EMAIL,
   REFRESH_TOKEN: process.env.REFRESH_TOKEN,
   smtp: {
     service: 'gmail',
