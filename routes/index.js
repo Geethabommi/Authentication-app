@@ -9,7 +9,4 @@ router.get('/', homeController.home);
 router.use('/users', require('./users'));
 router.use('/forgot-password', require('./resetpassword'));
 
-// for any further routes, access from here
-// router.use('/routerName', require('./routerfile));
-
 module.exports = router;

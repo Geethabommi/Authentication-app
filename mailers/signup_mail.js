@@ -24,9 +24,7 @@ const nodemailer = require('../config/nodemailer');
 //   );
 // };
 
-
-
-exports.sendSignupWelcomeMail = (user) => {
+exports.sendSignupWelcomeMail = async (user) => {
   let htmlString = nodemailer.renderTemplate(
     { user: user },
     '/signup_mail.ejs'

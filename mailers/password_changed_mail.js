@@ -26,7 +26,7 @@ const nodemailer = require('../config/nodemailer');
 //   );
 // };
 
-module.exports.sendPasswordchangeUpdateMail = (user) => {
+module.exports.sendPasswordchangeUpdateMail = async (user) => {
   let htmlString = nodemailer.renderTemplate(
     {
       user: user,
