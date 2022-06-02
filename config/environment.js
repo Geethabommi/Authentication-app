@@ -23,8 +23,10 @@ const development = {
     port: 587,
     secure: false,
     auth: {
-      user: 'geethabommi139@gmail.com',
-      pass: '***',
+      // user: 'geethabommi139@gmail.com',
+      // pass: 'Gappa@139',
+      user: process.env.AUTH_APP_SMTP_AUTH__USER,
+      pass: process.env.AUTH_APP_SMTP_AUTH_PASS,
     },
   },
   google_client_id:
