@@ -35,7 +35,7 @@ module.exports.sendPasswordchangeUpdateMail = async (user) => {
   );
   let emailTransporter = await nodemailer.transporter();
 
-  await emailTransporter.transporter.sendMail(
+  await emailTransporter.sendMail(
     {
       from: 'geethadeveloper1@gmail.com',
       to: user.email,

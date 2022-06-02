@@ -1,0 +1,7 @@
+[0mGET /users/sign-in [32m200[0m 286.473 ms - 3437[0m
+[0mGET /forgot-password [32m200[0m 132.351 ms - 1638[0m
+[0mPOST /forgot-password/mail [36m302[0m 712.555 ms - 46[0m
+[0mGET / [32m200[0m 988.078 ms - 1540[0m
+[0mGET /forgot-password/resetlink/accesstoken/487ef852b74171daaaf024b9de2c9bc0943f2ca4 [32m200[0m 236.297 ms - 1792[0m
+[0mPOST /forgot-password/reset [36m302[0m 388.014 ms - 46[0m
+[0mGET / [32m200[0m 119.630 ms - 1540[0m
