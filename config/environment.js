@@ -16,10 +16,9 @@ const development = {
   asset_path: './assets',
   session_cookie_key: 'HVZVge7QAC4l4q6WnE8opHyEG0GF8pKU',
   db: 'authentication_app_system',
-  mongodb_uri: `mongodb+srv://geet:Gsiva139@geet-cluster1.fopbkm4.mongodb.net/`,
+  mongodb_uri: `mongodb://localhost/`,
   EMAIL: 'geethadeveloper1@gmail.com',
-  REFRESH_TOKEN:
-    '1//04uER6v2AoKPQCgYIARAAGAQSNwF-L9Ir1uCxTJ9yfDt-R7i1LRso_eO7TUVJadUX3kGso_b6FQTqh_vKyxiFCt3LTlnyU6BMF2w',
+  REFRESH_TOKEN: 'XXXXX', //give oauth refresh token
   smtp: {
     service: 'gmail',
     host: 'smtp.gmail.com',
@@ -30,9 +29,8 @@ const development = {
       pass: process.env.AUTH_APP_SMTP_AUTH_PASS,
     },
   },
-  google_client_id:
-    '767926062708-rahi7280ea0lfbuvb0ap8a77t5c77opt.apps.googleusercontent.com',
-  google_client_secret: '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',
+  google_client_id: 'XXXopt.apps.googleusercontent.com', //give google client id
+  google_client_secret: 'xxxxx', //give google client secret
   google_call_back_url: 'http://localhost:8000/users/auth/google/callback',
   morgan: {
     mode: 'dev',

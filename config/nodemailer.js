@@ -5,11 +5,7 @@ const env = require('./environment');
 const { google } = require('googleapis');
 const OAuth2 = google.auth.OAuth2;
 
-let testAccount = nodemailer.createTestAccount();
-
-// create reusable transporter object using the default SMTP transport
-// let transporter = nodemailer.createTransport(env.smtp);
-
+//created transport of SMTP of OAuth for nodemailer to send Mail
 let renderTemplate = (data, relativePath) => {
   let mailHtml;
   ejs.renderFile(
